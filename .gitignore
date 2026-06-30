@@ -1,0 +1,19 @@
+# 1. أنشئ .gitignore مهم جداً
+echo "# Dependencies
+node_modules
+.next
+out
+build
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime
+.pnpm-debug.log
+" > .gitignore
